@@ -1048,9 +1048,22 @@ h4 {
     }
 }
 
+.img_text {
+    font-size: 22px;
+    /*margin: auto;
+    width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+}
+
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img_text {
+        margin: auto;
+        width: 90%;
     }
 }
 
@@ -1066,4 +1079,54 @@ h4 {
 
 .form-group {
     margin-bottom: 15px;
+}
+
+.larg {
+    height: 100px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.larg p {
+    font-size: 18px;
+}
+
+.box {
+    border: 0.5px solid grey;
+    width: 30%;
+}
+
+.box h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0 25px;
+    border-bottom: 1px solid grey;
+    margin: 25px 25px 0 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.partage_sur {
+    padding: 15px 0 15px;
+    display: flex;
+}
+
+.partage_sur p {
+    font-size: 17px;
+    margin: 5px 14px 0 0;
+}
+
+.reseaux a {
+    margin-right: 10px;
+}
+
+.color_info {
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    width: 90%;
+}
+
+.partage_sur, .explication {
+    margin: auto;
+    width: 90%;
 }
