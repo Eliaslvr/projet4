@@ -682,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -1050,8 +1050,19 @@ h4 {
 
 .img_text {
     font-size: 22px;
-    /*margin: auto;
-    width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+}
+
+.italic {
+    font-style: italic;
+    margin-bottom: -6px;
+    line-height: 1;
+}
+
+.img_text2 {
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 620px;
@@ -1061,9 +1072,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-    .img_text {
+    .img_text, .img_text2 {
         margin: auto;
         width: 90%;
+    }
+    .social {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
